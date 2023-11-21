@@ -3,3 +3,4 @@
 __MACOSX/._main.py
 /.env
 /venv/
+/.DS_Store
