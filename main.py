@@ -1,3 +1,4 @@
+
 from dotenv import load_dotenv
 import os
 from google.cloud import firestore
@@ -34,4 +35,7 @@ def delete_expired_events(request):
     
     except Exception as e:
         return f"Error: {e}"
+if __name__ == "__main__":
+    # ローカルでのテスト
+    delete_expired_events(None)
 
