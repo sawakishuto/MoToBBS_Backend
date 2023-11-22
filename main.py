@@ -29,6 +29,7 @@ def delete_expired_events(request):
             if attend_doc.id in event_doc_ids:
                 attend_doc.reference.delete()
  
+ 
         
     
     except Exception as e:
